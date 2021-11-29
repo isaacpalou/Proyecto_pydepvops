@@ -1,0 +1,1 @@
+Base de datos = mongodb+srv://m001-student:<password>@sandbox.qvf0j.mongodb.net/test
