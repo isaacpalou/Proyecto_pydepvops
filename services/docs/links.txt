@@ -1,1 +1,3 @@
 Base de datos = mongodb+srv://m001-student:<password>@sandbox.qvf0j.mongodb.net/test
+
+Codificar y descodificar JSON a diccionarios Python = https://recursospython.com/guias-y-manuales/json/
