@@ -7,4 +7,4 @@ json.dumps()
 # Opening JSON file
 with open ('data.json') as json_file:
     data = json.load(# json file in data base)
-print(data[''])
+print(data['data.json'])
