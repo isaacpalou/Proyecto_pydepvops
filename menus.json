@@ -1,0 +1,26 @@
+{
+    "menu": "Menú Dragon",
+    "plates": [
+        "2 x rollitos de primavera",
+        "ternera con salsa de ostras",
+        "helado frito"
+    ],
+    "drink": "agua, vino",
+    "stock": "53",
+    "price": "12,95",
+    "discount": 5,
+    "valoration": "4,2⭐"
+}
+{
+    "menu": "Khwām s̄uk̄h",
+    "plates": [
+        "plato1",
+        "plato2",
+        "plato3"
+    ],
+    "drink": "agua",
+    "stock": "32",
+    "price": "8,95",
+    "discount": 5,
+    "valoration": "4,6⭐" 
+}
