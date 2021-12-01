@@ -1,44 +1,99 @@
 diccionario_prueba = {
-    "menu1": {
-        "menuCompleto": "Menú Mallorquín",
-        "plato1": "Sopas Mallorquinas",
-        "plato2": "Huevos fritos con sobrasada",
-        "plato3": "Ensaimada",
-        "plato4": "Agua, gaseosa o cerveza o cualquier tipo de lata",
-        "stck": "50",
-        "price": "13,85",
-        "valoration": "4,5⭐"
-    },
-    "menu2": {
-        "menuCompleto": "Menú Asturiano",
-        "plato1": "Huevos rotos",
-        "plato2": "Cachopo",
-        "plato3": "Chipirones en su tinta",
-        "plato4": "Agua o refresco",
-        "stck": "50",
-        "price": "25,95",
-        "valoration": "2,2⭐"
-    },
-    "menu3": {
-        "menuCompleto": "Menú Andaluz",
-        "plato1": "Melón con jamón",
-        "plato2": "Merluza a la plancha",
-        "plato3": "Tarta de queso",
-        "plato4": "Agua, refresco, cerveza",
-        "stck": "50",
-        "price": "15",
-        "valoration": "4,0⭐"
-    },
-    "menu4": {
-        "menuCompleto": "Menú Madrileño",
-        "plato1": "Callos",
-        "plato2": "Cocido madrileño",
-        "plato3": "Flan de huevo",
-        "plato4": "Agua, refresco, cerveza",
-        "stck": "50",
-        "price": "12,50",
-        "valoration": "3,6⭐"
-    }
+    {
+    "menu": "Menú Dragon",
+    "plates": [
+        "2 x rollitos de primavera",
+        "ternera con salsa de ostras",
+        "helado frito"
+    ],
+    "drink": "agua, vino",
+    "stock": "53",
+    "price": "12,95",
+    "discount": 5,
+    "valoration": "4,2⭐"
+}
+{
+    "menu": "Menú Hainan",
+    "plates": [
+        "Ensalada china",
+        "Pollo con setas chinas y bambú",
+        "Helado frito"
+    ],
+    "drink": "agua o refresco",
+    "stock": "50",
+    "price": "25,95",
+    "discount": 5,
+    "valoration": "2,2⭐" 
+}
+{
+    "menu": "Menú Sichuan",
+    "plates": [
+        "Cerdo agridulce",
+        "Chop Suwy de gambas",
+        "Helado con almendras"
+    ],
+    "drink": "refresco",
+    "stock": "50",
+    "price": "48,95",
+    "discount": 5,
+    "valoration": "3,6⭐" 
+}
+{
+    "menu": "Menú Pekín",
+    "plates": [
+        "Sopa de tiburón",
+        "Pato Pekín",
+        "Liche en su jugo"
+    ],
+    "drink": "Ramune",
+    "stock": "32",
+    "price": "23,59",
+    "discount": 5,
+    "valoration": "4,4⭐" 
+}
+
+
+Italiano
+{
+    "menu": "Menú Roma",
+    "plates": [
+        "Lasaña",
+        "Risotto alla milanese",
+        "Carpaccio"
+    ],
+    "drink": "Agua o refresco",
+    "stock": "50",
+    "price": "14,99",
+    "discount": 5,
+    "valoration": "4,6⭐" 
+}
+
+{
+    "menu": "Menú Pizza",
+    "plates": [
+        "Pizza",
+        "Ensalada carpresse",
+        "Ossobuco"
+    ],
+    "drink": "Agua o refresco",
+    "stock": "50",
+    "price": "16,50",
+    "discount": 5,
+    "valoration": "3,2⭐" 
+}
+{
+    "menu": "Menú Venecia",
+    "plates": [
+        "Agnolotti",
+        "Bucatini",
+        "La polenta"
+    ],
+    "drink": "Agua o refresco",
+    "stock": "35",
+    "price": "20",
+    "discount": 5,
+    "valoration": "5,0⭐" 
+}
 }
 
 for ele
