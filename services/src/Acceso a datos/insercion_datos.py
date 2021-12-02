@@ -16,6 +16,8 @@ def insercion_datos():
     except pymongo.errors.CollectionInvalid as error:
         print("No se pudo conectar a MongoCompass") % error
 
+insercion_datos()
+
 # def borrar_coleccion():
 #     collection = conexion_bd()
 #     try:
