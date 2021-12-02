@@ -1,6 +1,6 @@
 [
     {
-        "menu": "Menu Dragon",
+        "name": "Menu Dragon",
         "plates": [
             "Rollitos de primavera",
             "Ternera con salsa de ostras",
@@ -13,7 +13,7 @@
         "valoration": "4,2"
     },
     {
-        "menu": "Menu Hainan",
+        "name": "Menu Hainan",
         "plates": [
             "Ensalada china",
             "Pollo con setas chinas y bambú",
@@ -26,7 +26,7 @@
         "valoration": "2,2"
     },
     {
-        "menu": "Menu Sichuan",
+        "name": "Menu Sichuan",
         "plates": [
             "Cerdo agridulce",
             "Chop Suwy de gambas",
@@ -39,7 +39,7 @@
         "valoration": "3,6"
     },
     {
-        "menu": "Menu Pekín",
+        "name": "Menu Pekín",
         "plates": [
             "Sopa de tiburón",
             "Pato Pekín",
@@ -52,7 +52,7 @@
         "valoration": "4,4"
     },
     {
-        "menu": "Menu Roma",
+        "name": "Menu Roma",
         "plates": [
             "Lasaña",
             "Risotto alla milanese",
@@ -65,7 +65,7 @@
         "valoration": "4,6"
     },
     {
-        "menu": "Menu Pizza",
+        "name": "Menu Pizza",
         "plates": [
             "Pizza",
             "Ensalada carpresse",
@@ -78,7 +78,7 @@
         "valoration": "3,2"
     },
     {
-        "menu": "Menu Venecia",
+        "name": "Menu Venecia",
         "plates": [
             "Agnolotti",
             "Bucatini",
@@ -91,7 +91,7 @@
         "valoration": "5,0"
     },
     {
-        "menu": "Menu de casa",
+        "name": "Menu de casa",
         "plates": [
             "Arroz a la mexicana",
             "Albondigas de pollo en salsa de chile chipodle",
@@ -104,7 +104,7 @@
         "valoration": "4,0"
     },
     {
-        "menu": "Menu macho",
+        "name": "Menu macho",
         "plates": [
             "Chiles en nogada",
             "Tortas ahogadas",
@@ -117,7 +117,7 @@
         "valoration": "1,8"
     },
     {
-        "menu": "Menu Borgoña",
+        "name": "Menu Borgoña",
         "plates": [
             "Baguette tostada con queso de cabra",
             "Le mique",
@@ -130,7 +130,7 @@
         "valoration": "4.0"
     },
     {
-        "menu": "Menu Auvernia",
+        "name": "Menu Auvernia",
         "plates": [
             "La potée",
             "Gallo al vino",
