@@ -8,6 +8,6 @@ def extraccion_datos():
 
     for i in items:
         lista.append(i)
-    pprint(lista)
+    return lista
 
 extraccion_datos()

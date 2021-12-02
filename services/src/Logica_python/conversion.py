@@ -1,10 +1,9 @@
-import json
+import sys
+sys.path.append(".")
 
-#Converir JSON data a Diccionarios python
-data = json.loads({})     #Para decodificar una cadena en el formato JSON (es decir, convertirla a un objeto de Python).
-json.dumps()
-
-# Opening JSON file
-with open ('data.json') as json_file:
-    data = json.load(# json file in data base)
-print(data['data.json'])
+from services.src.Acceso_a_datos.extraccion_datos import extraccion_datos
+from pprint import pprint
+def equisde():
+    lista2 = extraccion_datos()
+    pprint(lista2)
+equisde()
