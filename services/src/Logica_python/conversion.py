@@ -1,9 +1,13 @@
-import sys
-sys.path.append(".")
+# import sys
+# sys.path.append(".")
 
-from services.src.Acceso_a_datos.extraccion_datos import extraccion_datos
+
 from pprint import pprint
+
+from ..Acceso_a_datos.extraccion_datos import extraccion_datos
+
 def equisde():
-    lista2 = extraccion_datos()
-    pprint(lista2)
+    lista = extraccion_datos()
+    pprint(lista)
+
 equisde()

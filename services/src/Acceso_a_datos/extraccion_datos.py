@@ -1,6 +1,7 @@
 import pymongo
 from pprint import pprint
 from conexion_bd import conexion_bd
+
 def extraccion_datos():
     collection = conexion_bd()
     items = collection.find()
@@ -10,4 +11,5 @@ def extraccion_datos():
         lista.append(i)
     return lista
 
-extraccion_datos()
+if __name__ == '__main__':
+    pprint(extraccion_datos())
