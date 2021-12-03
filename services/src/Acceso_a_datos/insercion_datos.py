@@ -1,6 +1,4 @@
-from typing import Collection
 import pymongo
-import json
 from conexion_bd import conexion_bd
 
 
@@ -16,7 +14,6 @@ from conexion_bd import conexion_bd
 #     except pymongo.errors.CollectionInvalid as error:
 #         print("No se pudo conectar a MongoCompass") % error
 
-insercion_datos()
 
 # def borrar_coleccion():
 #     collection = conexion_bd()
