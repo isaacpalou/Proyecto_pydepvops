@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "Strata"
 theme = "hugo-strata-theme"
@@ -137,9 +137,9 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "main"
-	url  = "main"
-	weight = 5
+	name = "Home"
+	url  = "/"
+	weight = 10
 
 [[menu.main]]
 	name = "Blog"
