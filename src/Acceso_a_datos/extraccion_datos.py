@@ -12,3 +12,6 @@ def extraccion_datos(coleccion):
     for item in items:
         lista.append(item)
     return lista
+
+if __name__ == '__main__':
+    extraccion_datos()

@@ -8,8 +8,7 @@ def main():
     coleccion = conexion_bd()
     lista = extraccion_datos(coleccion)
     # conversion_md(lista)
-    return lista
-
+    return (lista)
 
 if __name__ == '__main__':
     main()
