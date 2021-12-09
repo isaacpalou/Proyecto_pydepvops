@@ -1,4 +1,5 @@
 import pymongo
+import json
 from conexion_bd import conexion_bd
 
 
@@ -15,15 +16,12 @@ def insercion_datos():
         print("No se pudo conectar a MongoCompass") % error
 
 
-def borrar_coleccion():
-    collection = conexion_bd()
-    try:
-        collection.drop()
-        print("La coleccion se ha borrado correctamente")
-            except pymongo.errors.ServerSelectionTimeoutError as error:
-        print("Error al conectar al servidor") % error
-    except pymongo.errors.CollectionInvalid as error:
-        print("No se pudo conectar a MongoCompass") % error
-
-
-borrar_coleccion()
+# def borrar_coleccion():
+#     collection = conexion_bd()
+#     try:
+#         collection.drop()
+#         print("La coleccion se ha borrado correctamente")
+#             except pymongo.errors.ServerSelectionTimeoutError as error:
+#         print("Error al conectar al servidor") % error
+#     except pymongo.errors.CollectionInvalid as error:
+#         print("No se pudo conectar a MongoCompass") % error
