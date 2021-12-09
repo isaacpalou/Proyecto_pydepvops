@@ -15,6 +15,5 @@ def main():
     alto = high_filter(lista)
     # CONVERSION A MD
 
-
 if __name__ == '__main__':
     main()
