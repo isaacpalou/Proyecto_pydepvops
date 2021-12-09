@@ -10,7 +10,7 @@
         "stock": 53,
         "price": 12.95,
         "discount": 5,
-        "valoration": "4,2"
+        "valoration": "4.2"
     },
     {
         "name": "Hainan",
@@ -23,7 +23,7 @@
         "stock": 50,
         "price": 25.95,
         "discount": 5,
-        "valoration": "2,2"
+        "valoration": "2.2"
     },
     {
         "name": "Sichuan",
@@ -36,7 +36,7 @@
         "stock": 50,
         "price": 48.95,
         "discount": 5,
-        "valoration": "3,6"
+        "valoration": "3.6"
     },
     {
         "name": "Pekín",
@@ -49,7 +49,7 @@
         "stock": 32,
         "price": 23.59,
         "discount": 5,
-        "valoration": "4,4"
+        "valoration": "4.4"
     },
     {
         "name": "Roma",
@@ -62,7 +62,7 @@
         "stock": 50,
         "price": 14.99,
         "discount": 5,
-        "valoration": "4,6"
+        "valoration": "4.6"
     },
     {
         "name": "Pizza",
@@ -75,7 +75,7 @@
         "stock": 50,
         "price": 16.50,
         "discount": 5,
-        "valoration": "3,2"
+        "valoration": "3.2"
     },
     {
         "name": "Venecia",
@@ -88,7 +88,7 @@
         "stock": 35,
         "price": 20,
         "discount": 5,
-        "valoration": "5,0"
+        "valoration": "5.0"
     },
     {
         "name": "De la casa",
@@ -101,7 +101,7 @@
         "stock": 10,
         "price": 17.90,
         "discount": 0,
-        "valoration": "4,0"
+        "valoration": "4.0"
     },
     {
         "name": "Macho",
@@ -114,7 +114,7 @@
         "stock": 7,
         "price": 15.10,
         "discount": 10,
-        "valoration": "1,8"
+        "valoration": "1.8"
     },
     {
         "name": "Borgoña",
