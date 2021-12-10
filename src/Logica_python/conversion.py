@@ -1,7 +1,7 @@
 from pprint import pprint
+from typing import Counter
 
-
-def conversion_md(lista_filtrada):
+def conversion_md(lista_filtrada, valoracion):
     lista = lista_filtrada
     string = ''
     for diccionario in lista:
@@ -26,8 +26,5 @@ def conversion_md(lista_filtrada):
             
             if item == 'valoration':
                 string += '### **Valoración:** ' + diccionario[item] + '\n' + '<br>' + '\n' + '\n'
-
-
-
-    with open('pagina.md', 'a', encoding="UTF-8") as f:
-        f.write(string)
+    with open('PyDevops_web/content/pagina' + str(valoracion) + '.md', 'a', encoding= "UTF-8") as f:
+            f.write(string)
