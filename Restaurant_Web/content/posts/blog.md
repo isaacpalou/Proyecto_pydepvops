@@ -9,5 +9,3 @@ draft: true
 Este es el mejor blog en existencia en esta maquina
 
 > No nos flipemos
-
-[Google](https://www.google.es)

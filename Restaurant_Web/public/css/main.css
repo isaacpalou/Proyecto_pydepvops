@@ -1602,7 +1602,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #911a20;
 		font-weight: 400;
 		line-height: 1em;
 	}
@@ -1750,7 +1750,7 @@
 	}
 
 	label {
-		color: #787878;
+		color: #501f1f;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1790,7 +1790,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #0ddbe2;
 		}
 
 	.select-wrapper {

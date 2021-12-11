@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Strata"
+title = "International Food"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
@@ -12,7 +12,7 @@ paginate = 10
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Joan"
-	description = "Describe your website"
+	description = "Better"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
@@ -32,7 +32,7 @@ paginate = 10
 		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
 		# The icons will be shown if you enter your username
 		twitter = "spf13"
-		github = "MatiasAGomezJ"
+		github = "/isaacpalou/Proyecto_pydepvops.git"
 		gitlab = "spf13"
 		dribbble = ""
 		facebook = ""
@@ -41,8 +41,8 @@ paginate = 10
 		linkedin = ""
 
 		copyright = [
-			"&copy; Joan puto amo",
-			"Design: [HTML5 UP](//html5up.net)",
+			"&copy; Exclusive for Isaac/Joan",
+			"Design: Joan/Isaac",
 			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
 
@@ -143,15 +143,15 @@ paginate = 10
 
 [[menu.main]]
 	name = "Mejor Valoracion"
-	url  = "/posts/blog"
+	url  = "/posts/Alta_valoracion"
 	weight = 3
 
 [[menu.main]]
 	name = "Valoracion Media"
-	url  = "/posts/wingardium_leviosa"
+	url  = "/posts/Media_Valoracion"
 	weight = 3
 
 [[menu.main]]
 	name = "Valoracion Baja"
-	url  = "/posts/baja_valoracion.md"
+	url  = "/posts/baja_valoracion"
 	weight = 3
