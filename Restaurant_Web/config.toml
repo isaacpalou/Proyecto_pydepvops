@@ -142,11 +142,16 @@ paginate = 10
 	weight = 3
 
 [[menu.main]]
-	name = "Mayor Valoracion"
+	name = "Mejor Valoracion"
 	url  = "/posts/blog"
 	weight = 3
 
 [[menu.main]]
 	name = "Valoracion Media"
 	url  = "/posts/wingardium_leviosa"
+	weight = 3
+
+[[menu.main]]
+	name = "Valoracion Baja"
+	url  = "/posts/baja_valoracion.md"
 	weight = 3

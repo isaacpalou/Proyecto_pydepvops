@@ -14,6 +14,8 @@ def main():
     medio = medium_filter(lista)
     alto = high_filter(lista)
     # CONVERSION A MD
-
+    conversion_md(bajo, "bajo")
+    conversion_md(medio, "medio")
+    conversion_md(alto, "alto")
 if __name__ == '__main__':
     main()
