@@ -1,13 +1,10 @@
-from pprint import pprint
-from typing import Counter
-
-def conversion_md(lista_filtrada, valoracion):
+def conversion_md(lista_filtrada):
     lista = lista_filtrada
     string = ''
     for diccionario in lista:
         for item in diccionario:
             if item == 'name':
-                string += "# **Menú: " + diccionario[item] + '**' + "\n"
+                string += "# **Menu: " + diccionario[item] + '**' + "\n"
 
             if item == 'plates':
                 string += '### Platos: ' + '\n' + '- ' + diccionario[item][0] + '\n' + '- ' + diccionario[item][1] + '\n' + '- ' +  diccionario[item][2] + '\n' + '\n'
@@ -22,9 +19,31 @@ def conversion_md(lista_filtrada, valoracion):
                 string += '### Precio: ' + str(diccionario[item]) + '\n' + '\n'
             
             if item == 'discount':
-                string += '### Descuento: ' + str(diccionario[item]) + ' %' + '\n' + '\n'
+                string += '### Descuento: ' + str(diccionario[item]) + ' %' + '\n' + '\n' #\n añade espacios, en Markdown se necesitan dos espacios para cambiar de linea.
             
             if item == 'valoration':
-                string += '### **Valoración:** ' + diccionario[item] + '\n' + '<br>' + '\n' + '\n'
-    with open('PyDevops_web/content/pagina' + str(valoracion) + '.md', 'a', encoding= "UTF-8") as f:
-            f.write(string)
+                string += '### **Valoracion:** ' + diccionario[item] + '\n' + '<br>' + '\n' + '\n'
+
+    f = open('pagina.md', 'w')
+    f.write(string)
+    f.close()
+
+if __name__=='__main__':
+
+    d = {   'name': 'Alberto',
+            'plates': ["Rollitos de primavera", "Ternera con salsa de ostras", "helado frito"],
+            'drink': 'Coca',
+            'stock': '8',
+            'price': '20000000',
+            'discount': '99',
+            'valoration': '10.5'
+    }
+
+    conversion_md([d])
+            'price': '20000000',
+            'discount': '99',
+            'valoration': '10.5'
+    }
+
+    conversion_md([d])
+    
