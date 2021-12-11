@@ -1,13 +1,43 @@
-from pprint import pprint
-from pymongo import MongoClient
-from Proyecto_pydepvops.src.Acceso_a_datos.conexion_bd import conexion_bd
-from Proyecto_pydepvops.src.Acceso_a_datos.extraccion_datos import extraccion_datos
+def conversion_md(lista_filtrada):
+    lista = lista_filtrada
+    string = ''
+    for diccionario in lista:
+        for item in diccionario:
+            if item == 'name':
+                string += "# **Menu: " + diccionario[item] + '**' + "\n"
 
+            if item == 'plates':
+                string += '### Platos: ' + '\n' + '- ' + diccionario[item][0] + '\n' + '- ' + diccionario[item][1] + '\n' + '- ' +  diccionario[item][2] + '\n' + '\n'
 
-def titulos():
-    if "#"
+            if item == 'drink':
+                string += '### Bebida: ' + diccionario[item] + '\n' + '\n'
+            
+            if item == 'stock':
+                string += '### Stock: ' + str(diccionario[item]) + '\n' + '\n'
 
-def subtitulos():
+            if item == 'price':
+                string += '### Precio: ' + str(diccionario[item]) + '\n' + '\n'
+            
+            if item == 'discount':
+                string += '### Descuento: ' + str(diccionario[item]) + ' %' + '\n' + '\n' #\n añade espacios, en Markdown se necesitan dos espacios para cambiar de linea.
+            
+            if item == 'valoration':
+                string += '### **Valoracion:** ' + diccionario[item] + '\n' + '<br>' + '\n' + '\n'
 
-def texto_comun():
+    f = open('pagina.md', 'w')
+    f.write(string)
+    f.close()
 
+if __name__=='__main__':
+
+    d = {   'name': 'Alberto',
+            'plates': ["Rollitos de primavera", "Ternera con salsa de ostras", "helado frito"],
+            'drink': 'Coca',
+            'stock': '8',
+            'price': '20000000',
+            'discount': '99',
+            'valoration': '10.5'
+    }
+
+    conversion_md([d])
+    
