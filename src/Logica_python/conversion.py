@@ -40,4 +40,10 @@ if __name__=='__main__':
     }
 
     conversion_md([d])
+            'price': '20000000',
+            'discount': '99',
+            'valoration': '10.5'
+    }
+
+    conversion_md([d])
     
