@@ -28,7 +28,6 @@ def conversion_md(lista_filtrada):
     f.write(string)
     f.close()
 
-if __name__=='__main__':
 
     d = {   'name': 'Alberto',
             'plates': ["Rollitos de primavera", "Ternera con salsa de ostras", "helado frito"],
@@ -40,10 +39,5 @@ if __name__=='__main__':
     }
 
     conversion_md([d])
-            'price': '20000000',
-            'discount': '99',
-            'valoration': '10.5'
-    }
-
-    conversion_md([d])
     
+if __name__=='__main__':
