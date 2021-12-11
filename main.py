@@ -14,7 +14,7 @@ def main():
     medio = medium_filter(lista)
     alto = high_filter(lista)
     # pprint(bajo)
-
+    
     # CONVERSION A MD
     conversion_md(bajo, "bajo")
     conversion_md(medio, "medio")
