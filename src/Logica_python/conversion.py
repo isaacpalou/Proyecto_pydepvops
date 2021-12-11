@@ -24,20 +24,18 @@ def conversion_md(lista_filtrada):
             if item == 'valoration':
                 string += '### **Valoracion:** ' + diccionario[item] + '\n' + '<br>' + '\n' + '\n'
 
-    f = open('pagina.md', 'w')
+    f = open('Restaurant_web/content/posts/blog.md', 'w')
     f.write(string)
     f.close()
 
-
+if __name__=='__main__':
     d = {   'name': 'Alberto',
             'plates': ["Rollitos de primavera", "Ternera con salsa de ostras", "helado frito"],
             'drink': 'Coca',
             'stock': '8',
-            'price': '20000000',
-            'discount': '99',
-            'valoration': '10.5'
+            'price': '20',
+            'discount': '5',
+            'valoration': '4.5'
     }
 
     conversion_md([d])
-    
-if __name__=='__main__':

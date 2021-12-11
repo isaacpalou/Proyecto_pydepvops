@@ -1,11 +1,17 @@
----
-title: "Blog"
-date: 2021-12-10T19:19:22+01:00
-draft: true
----
+# **Menu: Alberto**
+### Platos: 
+- Rollitos de primavera
+- Ternera con salsa de ostras
+- helado frito
 
-# Mi blog
+### Bebida: Coca
 
-Este es el mejor blog en existencia en esta maquina
+### Stock: 8
 
-> No nos flipemos
+### Precio: 20
+
+### Descuento: 5 %
+
+### **Valoracion:** 4.5
+<br>
+
