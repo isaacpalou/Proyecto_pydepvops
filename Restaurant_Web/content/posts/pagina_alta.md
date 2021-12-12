@@ -1,9 +1,4 @@
----
-title: "Alta_valoracion"
-date: 2021-12-10T19:42:46+01:00
-draft: true
----
-# **Menú: Pekín**
+# **Menu: Pekín**
 ### Platos: 
 - Sopa de tiburón
 - Pato Pekín
@@ -17,10 +12,10 @@ draft: true
 
 ### Descuento: 5 %
 
-### **Valoración:** 4.4
+### **Valoracion:** 4.4
 <br>
 
-# **Menú: Roma**
+# **Menu: Roma**
 ### Platos: 
 - Lasaña
 - Risotto alla milanese
@@ -34,10 +29,10 @@ draft: true
 
 ### Descuento: 5 %
 
-### **Valoración:** 4.6
+### **Valoracion:** 4.6
 <br>
 
-# **Menú: Venecia**
+# **Menu: Venecia**
 ### Platos: 
 - Agnolotti
 - Bucatini
@@ -51,7 +46,6 @@ draft: true
 
 ### Descuento: 5 %
 
-### **Valoración:** 5.0
+### **Valoracion:** 5.0
 <br>
-
 
