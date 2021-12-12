@@ -26,7 +26,7 @@ def conversion_md(lista_filtrada, valoration):
 
             if item == 'valoration':
                 string += '### **Valoracion:** ' + \
-                    diccionario[item] + '\n' + '<br>' + '\n' + '\n'
+                    str(diccionario[item]) + '\n' + '<br>' + '\n' + '\n'
 
     with open('Restaurant_Web/content/posts/pagina_' + str(valoration) + '.md', 'w', encoding='UTF-8') as f:
         f.write(string)

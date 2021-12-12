@@ -29,7 +29,7 @@
 
 ### Descuento: 0 %
 
-### **Valoracion:** 4.0
+### **Valoracion:** 4
 <br>
 
 # **Menu: Borgoña**
@@ -46,7 +46,7 @@
 
 ### Descuento: 5 %
 
-### **Valoracion:** 4.0
+### **Valoracion:** 4
 <br>
 
 # **Menu: Auvernia**
