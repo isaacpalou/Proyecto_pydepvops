@@ -1,3 +1,4 @@
+##### FUNCIÓN DE CONVERSIÓN A MARKDOWN #####
 def conversion_md(lista_filtrada, valoration):
     lista = lista_filtrada
     string = ''

@@ -6,15 +6,23 @@ from src.Logica_python.lanzar_hugo import iniciar_hugo
 
 
 def main():
-    # CONEXIÓN CON LA BBDD
+    ##### CONEXIÓN CON LA BBDD #####
+
+    # Defino una variable a la que le asigno la funcion que devuelve la coleccion de la BBDD.
     coleccion = conexion_bd()
+    # Defino una variable a la que le asigno la funcion que devuelve una lista de diccionarios.
     lista = extraccion_datos(coleccion)
-    # FILTRO POR VALORACIÓN
+
+    ##### FILTRO POR VALORACIÓN #####
+
+    # Devuelve la lista principal filtrada por valoracion.
     bajo = low_filter(lista)
     medio = medium_filter(lista)
     alto = high_filter(lista)
 
-    # CONVERSION A MD
+    ##### CONVERSION A MD #####
+
+    # Les pasa las listas filtradas para que las convierta a 3 MARKDOWNS diferentes.
     conversion_md(bajo, "baja")
     conversion_md(medio, "media")
     conversion_md(alto, "alta")
