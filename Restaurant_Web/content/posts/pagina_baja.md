@@ -1,4 +1,4 @@
-# **Menú: Hainan**
+# **Menu: Hainan**
 ### Platos: 
 - Ensalada china
 - Pollo con setas chinas y bambú
@@ -12,10 +12,10 @@
 
 ### Descuento: 5 %
 
-### **Valoración:** 2.2
+### **Valoracion:** 2.2
 <br>
 
-# **Menú: Sichuan**
+# **Menu: Sichuan**
 ### Platos: 
 - Cerdo agridulce
 - Chop Suwy de gambas
@@ -29,10 +29,10 @@
 
 ### Descuento: 5 %
 
-### **Valoración:** 3.6
+### **Valoracion:** 3.6
 <br>
 
-# **Menú: Pizza**
+# **Menu: Pizza**
 ### Platos: 
 - Pizza
 - Ensalada carpresse
@@ -46,10 +46,10 @@
 
 ### Descuento: 5 %
 
-### **Valoración:** 3.2
+### **Valoracion:** 3.2
 <br>
 
-# **Menú: Macho**
+# **Menu: Macho**
 ### Platos: 
 - Chiles en nogada
 - Tortas ahogadas
@@ -63,5 +63,6 @@
 
 ### Descuento: 10 %
 
-### **Valoración:** 1.8
+### **Valoracion:** 1.8
 <br>
+

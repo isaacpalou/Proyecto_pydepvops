@@ -5,6 +5,7 @@ from src.Logica_python.conversion import conversion_md
 from src.Logica_python.filter import high_filter, low_filter, medium_filter
 from src.Logica_python.lanzar_hugo import iniciar_hugo
 
+
 def main():
     # CONEXIÓN CON LA BBDD
     coleccion = conexion_bd()
@@ -13,12 +14,11 @@ def main():
     bajo = low_filter(lista)
     medio = medium_filter(lista)
     alto = high_filter(lista)
-    # pprint(bajo)
-    
+
     # CONVERSION A MD
-    conversion_md(bajo, "bajo")
-    conversion_md(medio, "medio")
-    conversion_md(alto, "alto")
+    conversion_md(bajo, "baja")
+    conversion_md(medio, "media")
+    conversion_md(alto, "alta")
 
 
 if __name__ == '__main__':

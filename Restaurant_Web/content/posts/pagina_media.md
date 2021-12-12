@@ -1,4 +1,4 @@
-# **Menú: Dragon**
+# **Menu: Dragon**
 ### Platos: 
 - Rollitos de primavera
 - Ternera con salsa de ostras
@@ -12,10 +12,10 @@
 
 ### Descuento: 5 %
 
-### **Valoración:** 4.2
+### **Valoracion:** 4.2
 <br>
 
-# **Menú: De la casa**
+# **Menu: De la casa**
 ### Platos: 
 - Arroz a la mexicana
 - Albondigas de pollo en salsa de chile chipodle
@@ -29,10 +29,10 @@
 
 ### Descuento: 0 %
 
-### **Valoración:** 4.0
+### **Valoracion:** 4.0
 <br>
 
-# **Menú: Borgoña**
+# **Menu: Borgoña**
 ### Platos: 
 - Baguette tostada con queso de cabra
 - Le mique
@@ -46,10 +46,10 @@
 
 ### Descuento: 5 %
 
-### **Valoración:** 4.0
+### **Valoracion:** 4.0
 <br>
 
-# **Menú: Auvernia**
+# **Menu: Auvernia**
 ### Platos: 
 - La potée
 - Gallo al vino
@@ -63,6 +63,6 @@
 
 ### Descuento: 0 %
 
-### **Valoración:** 4.2
+### **Valoracion:** 4.2
 <br>
 
