@@ -46,6 +46,6 @@
 
 ### Descuento: 5 %
 
-### **Valoracion:** 5.0
+### **Valoracion:** 5
 <br>
 
