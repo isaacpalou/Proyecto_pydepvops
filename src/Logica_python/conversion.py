@@ -21,7 +21,6 @@ def conversion_md(lista_filtrada, valoration):
                 string += '### Precio: ' + str(diccionario[item]) + '\n' + '\n'
 
             if item == 'discount':
-                # \n añade espacios, en Markdown se necesitan dos espacios para cambiar de linea.
                 string += '### Descuento: ' + \
                     str(diccionario[item]) + ' %' + '\n' + '\n'
 
