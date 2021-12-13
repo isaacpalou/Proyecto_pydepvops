@@ -42,10 +42,10 @@
 
 ### Stock: 35
 
-### Precio: 20
+### Precio: 20.0
 
 ### Descuento: 5 %
 
-### **Valoracion:** 5
+### **Valoracion:** 5.0
 <br>
 
