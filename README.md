@@ -41,8 +41,9 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 - Hugo: Hugo es un generador de sitios web estáticos escrito en Go, y es software libre.
 
 -------------
+DIAGRAMA COMPONENTES
 
-
+![global config](pics/diagrama_componentes.png)
 ## **Diseño:**
 
 -----------
