@@ -46,6 +46,14 @@ DIAGRAMA COMPONENTES
 ![global config](pics/diagrama_componentes.png)
 ## **Diseño:**
 
+### Arquitectura de la aplicación
+
+
+
+
+<img width="527" alt="diagrama " src="https://user-images.githubusercontent.com/91556752/145839738-f20b0663-0d00-4f35-ae2e-1a6905f1f126.png">
+
+
 -----------
 
 ## **Implementación:**
