@@ -143,15 +143,15 @@ paginate = 10
 
 [[menu.main]]
 	name = "Mejor Valoracion"
-	url  = "/posts/Alta_valoracion"
+	url  = "/posts/pagina_alta"
 	weight = 3
 
 [[menu.main]]
 	name = "Valoracion Media"
-	url  = "/posts/Media_Valoracion"
+	url  = "/posts/pagina_media"
 	weight = 3
 
 [[menu.main]]
 	name = "Valoracion Baja"
-	url  = "/posts/baja_valoracion"
+	url  = "/posts/pagina_baja"
 	weight = 3
