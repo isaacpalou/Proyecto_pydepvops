@@ -4,39 +4,57 @@ This is a project developed by Isaac Palou and Joan Llompart.
 
 ----
 =======
-## Introducción:
+## **Introducción:**
 
 -----------
 
-## Metodología:
+## **Metodología:**
+En nuesto caso hemos usado la metodología Scrum ya que nos ha permitido obtener pequeños resultados a corto plazo.
 
+### EXPLICACIÓN
+La metodología Scrum es un proceso para llevar a cabo un conjunto de tareas de forma regular con el objetivo principal de trabajar de manera colaborativa, es decir, para fomentar el trabajo en equipo.
 
+Con este método de trabajo lo que se pretende es alcanzar el mejor resultado de un proyecto determinado. Las prácticas que se aplican con la metodología Scrum se retroalimentan unas con otras y la integración de las mismas tiene su origen en un estudio de cómo hay que coordinar a los equipos para ser potencialmente competitivos.
+### FASES
+- 1. Planificación: Product Backlog
 
----------------------------
+>El Product Backlog es la fase en la que se establecen las tareas prioritarias y donde se obtiene información breve y detallada sobre el proyecto que se va a desarrollar.
 
-## Análisis:
+- 2. Ejecución: Sprint
+
+>Dentro del método Scrum, el Sprint es el corazón, un intervalo de tiempo que como máximo tiene una duración de un mes y en donde se produce el desarrollo de un producto que es entregable potencialmente.
+
+>Para entenderlo mejor, si el Product Owner solicita el producto se requiere un mínimo esfuerzo para su entrega al cliente.
+
+>También se puede definir el Sprint como un mini proyecto en donde el equipo de trabajo se focaliza en el desarrollo de tareas para alcanzar el objetivo que se ha definido previamente en el Sprint planning.
+
+- 3. Revisión del sprint
+
+>Es la fase en la que se mide el progreso de un determinado proyecto Scrum. En ella, el Scrum Master será el encargado de actualizar los gráficos cuando se finalice cada uno de los Sprint.
+
+## **Análisis:**
 
 -------------
 
 
-## Diseño:
+## **Diseño:**
 
 -----------
 
-## Implementación:
+## **Implementación:**
 
 -----------
 
 
-## Pruebas:
+## **Pruebas:**
 
 -----------
 
-## Comparación Temporal:
+## **Comparación Temporal:**
 
 -----------
 
-## Dificultades :
+## **Dificultades:**
 
 
 -----------
