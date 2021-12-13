@@ -3,6 +3,18 @@ import json
 from conexion_bd import conexion_bd
 
 
+def insertar_item():
+    collection = conexion_bd()
+    newItem = {'item'}
+    collection.insert_one(newItem)
+
+
+def borrar_item():
+    collection = conexion_bd()
+    Item = {'item'}
+    collection.delete_one(Item)
+
+
 # def insercion_datos():
 #     collection = conexion_bd()
 #     with open("src/Acceso a datos/menus.json", "r") as my_json:
