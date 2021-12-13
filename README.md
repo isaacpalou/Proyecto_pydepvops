@@ -59,7 +59,7 @@ DIAGRAMA COMPONENTES
 
 ## **Comparación Temporal:**
 
------------
+![global config](pics/clockify.png)
 
 ## **Dificultades:**
 
