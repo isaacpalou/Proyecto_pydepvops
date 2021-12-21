@@ -5,12 +5,13 @@ This is a project developed by Isaac Palou and Joan Llompart.
 ----
 =======
 ## **Introducción:**
-
+En este proyecto el objectivo que el Product Owner nos exigia era un programa que recogiera los items de la base de datos MongoDB convertir los JSON a diccionarios Python, luego el programa con logica Python tiene que cojer los items de esa base de datos y convertir-los ha Markdown para que luego con el generador de sitios staticos Hugo coja los fitxeros Markdown y los convierta a html directamente para poder ser visualizados en la web que genera hugo, finalmente desde la pagina de hugo tienen que poder crear,actualizar y borrar los items, en la base de datos de Mongo Atlas.
 -----------
 
 ## **Metodología:**
-En nuesto caso hemos usado la metodología Scrum ya que nos ha permitido obtener pequeños resultados a corto plazo.
+En nuesto caso hemos usado el marco de trabajo Scrum ya que nos ha permitido obtener pequeños resultados a corto plazo, por otro lado era el que mas experiencia teniamos usandolo.
 
+Scrum nos ha permitido 
 ### EXPLICACIÓN
 La metodología Scrum es un proceso para llevar a cabo un conjunto de tareas de forma regular con el objetivo principal de trabajar de manera colaborativa, es decir, para fomentar el trabajo en equipo.
 
@@ -39,6 +40,28 @@ Con este método de trabajo lo que se pretende es alcanzar el mejor resultado de
 
 ## **Diseño:**
 
+
+-------
+
+### DIAGRAMA COMPONENTES
+
+
+
+![global config](pics/diagrama_componentes.png)
+
+
+
+
+
+----------
+### Arquitectura de la aplicación
+
+
+
+
+<img width="527" alt="diagrama " src="https://user-images.githubusercontent.com/91556752/145839738-f20b0663-0d00-4f35-ae2e-1a6905f1f126.png">
+
+
 -----------
 
 ## **Implementación:**
@@ -59,6 +82,11 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 
 ## **Comparación Temporal:**
 
+
+
+![global config](pics/clockify.png)
+
+
 -----------
 
 ## **Dificultades:**
@@ -69,3 +97,18 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 - Problema con la conexión a la base de datos MongoDB que se solucionó instalando un certificado en la maquina y importando *certifi* en el modulo de conexion_bd.py
 
 - Problemas para averiguar como darle un nombre diferente a cada archivo MD para que no se escribieran todos en el mismo.
+
+ - Una Dificultat ha sido enternder como funciona exactamente Hugo.
+
+- Dificultades a la hora de organizar el proyecto.
+
+
+----
+## **-Futuras Mejoras:**
+
+- Refactorizar codigo python.
+- Automatizar CRUD.(Con formularios de google)
+- Implementar mejor TDD.
+- Implementar Black, Bandit, Coverage
+- Implementar Tox
+- Imolementar Typer
