@@ -75,7 +75,7 @@ RF_Cliente_XX
 
 ![global config](pics/DCU.JPG)
 
-### **SCHEMA**
+### **ESQUEMA de BBDD**
 
 ~~~
 {
@@ -127,9 +127,7 @@ RF_Cliente_XX
   }
 }
 ~~~
-
-
-
+---
 ## **5. Implementación:**
 
 Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
@@ -144,10 +142,22 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 
 ## **6. Pruebas:**
 
+**Prueba validación esquema**
+
+![prueba](pics/prueba1.JPG)
+
 -----------
 
 ## **7. Comparación Temporal:**
+**Estimación inicial**
 
+Nosotros hizimos una estimacíon inicial de 58 horas y lo dividimos en Sprints.
+![estimacion](pics/estimacion.JPG)
+
+
+**Estimación real**
+
+Finalmente nos salieron aproximadamente 71 horas.
 ![clockify](pics/clockify.png)
 
 ## **8. Dificultades:**
@@ -173,5 +183,4 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 - Implementar mejor TDD.
 - Implementar Black, Bandit, Coverage
 - Implementar Tox
-- Imolementar Typer
-
+- Implementar Typer
