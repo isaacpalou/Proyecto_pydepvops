@@ -10,6 +10,8 @@ def low_filter(lista):
     return output
 
 # Funcion que filtra los items cuya valoracion és mayor o igual que 4 y menor que 4.4.
+
+#refactorizar variable de valoracion
 def medium_filter(lista):
     medium_list = lista
     output = []
@@ -19,6 +21,8 @@ def medium_filter(lista):
     return output
 
 # Funcion que filtra los items cuya valoracion és mayor o igual que 4.4.
+
+
 def high_filter(lista):
     high_list = lista
     output = []

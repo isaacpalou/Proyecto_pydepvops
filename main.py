@@ -26,7 +26,7 @@ def main():
     conversion_md(bajo, "baja")
     conversion_md(medio, "media")
     conversion_md(alto, "alta")
-    iniciar_hugo()
+    iniciar_hugo() #Inicia el servidor y habre el la pagina en el  navegador predeterminado.
 
 if __name__ == '__main__':
     main()
