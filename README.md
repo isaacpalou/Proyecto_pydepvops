@@ -61,14 +61,21 @@ RF_Cliente_XX
     - Se convierten los datos filtrados en MD.
 - RnF_04: Generación página
     - Se genera la página automáticamente con esos datos.
-   
-## **Diseño:**
+
+### **Diagrama de Casos de Uso**
+
+![UML](/pics/UML.jpg)
+
+### **Tecnologías usadas**
 
 Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 
 - Base de datos *MongoDB*  es una base de datos orientada a documentos. Esto quiere decir que en lugar de guardar los datos en registros, guarda los datos en documentos.Es de código abierto y utiliza un sistema de base de datos NoSQL.
 
-- Hugo: Hugo es un generador de sitios web estáticos escrito en Go, y es software libre.
+- Hugo: Hugo es un generador de sitios web estáticos escrito en Go, y es software libre
+
+-------
+## **Diseño:**
 
 -------
 
