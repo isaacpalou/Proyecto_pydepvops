@@ -32,13 +32,12 @@ paginate = 10
 		bio = "**International Food**, **una nueva<br> manera de descubrir mundo**."
 		# The icons will be shown if you enter your username
 
+
 		github = "/isaacpalou/Proyecto_pydepvops.git"
 
 
 
-
-
-
+		github = "/isaacpalou/Proyecto_pydepvops.git"
 		copyright = [
 			"&copy; Exclusive for Isaac/Joan",
 			"Design: Joan/Isaac",

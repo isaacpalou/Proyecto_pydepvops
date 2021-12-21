@@ -35,10 +35,18 @@ Con este método de trabajo lo que se pretende es alcanzar el mejor resultado de
 
 ## **Análisis:**
 
+Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
+
+- Base de datos *MongoDB*  es una base de datos orientada a documentos. Esto quiere decir que en lugar de guardar los datos en registros, guarda los datos en documentos.Es de código abierto y utiliza un sistema de base de datos NoSQL.
+
+- Hugo: Hugo es un generador de sitios web estáticos escrito en Go, y es software libre.
+
 -------------
+DIAGRAMA COMPONENTES
 
-
+![global config](pics/diagrama_componentes.png)
 ## **Diseño:**
+
 
 
 -------
@@ -54,6 +62,8 @@ Con este método de trabajo lo que se pretende es alcanzar el mejor resultado de
 
 
 ----------
+
+
 ### Arquitectura de la aplicación
 
 
@@ -84,11 +94,6 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 
 
 
-![global config](pics/clockify.png)
-
-
------------
-
 ## **Dificultades:**
 
 
@@ -97,6 +102,7 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 - Problema con la conexión a la base de datos MongoDB que se solucionó instalando un certificado en la maquina y importando *certifi* en el modulo de conexion_bd.py
 
 - Problemas para averiguar como darle un nombre diferente a cada archivo MD para que no se escribieran todos en el mismo.
+
 
  - Una Dificultat ha sido enternder como funciona exactamente Hugo.
 
@@ -112,3 +118,4 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 - Implementar Black, Bandit, Coverage
 - Implementar Tox
 - Imolementar Typer
+
