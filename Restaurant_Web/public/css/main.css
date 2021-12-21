@@ -1550,7 +1550,7 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #850404;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1589,7 +1589,7 @@
 		}
 
 	strong, b {
-		color: #787878;
+		color: #501f1f;
 		font-weight: 400;
 	}
 
@@ -1672,9 +1672,9 @@
 	}
 
 	code {
-		background: #f7f7f7;
+		background: #850404;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #850404;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -1714,7 +1714,7 @@
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #850404;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1766,7 +1766,7 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #850404;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1854,7 +1854,7 @@
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #f1c8c8;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -1876,7 +1876,7 @@
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
-				background: #f7f7f7;
+				background: #f1c8c8;
 				border-radius: 0.35em;
 				border: solid 2px transparent;
 				content: '';
@@ -1892,8 +1892,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #787878;
-			border-color: #787878;
+			background: #850404;
+			border-color: #850404;
 			color: #fff;
 			content: '\f00c';
 		}
@@ -1912,7 +1912,7 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #b2b2b2 !important;
+		color: #850404 !important;
 		opacity: 1.0;
 	}
 
@@ -1940,7 +1940,7 @@
 
 	.box {
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		border: solid 2px #f1c8c8;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2117,7 +2117,7 @@
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px #f1c8c8;
 				padding: 0.5em 0;
 			}
 
@@ -2258,13 +2258,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px #f1c8c8;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: #f1c8c8;
 			}
 
 		table td {
@@ -2280,11 +2280,11 @@
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px #f1c8c8;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #f1c8c8;
 		}
 
 		table.alt {
@@ -2292,7 +2292,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px #f1c8c8;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -2329,8 +2329,8 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
-		color: #787878 !important;
+		border: solid 3px #d41313;
+		color: #921010 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2478,11 +2478,11 @@
 	}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #f1c8c8;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #f1c8c8;
 		}
 
 		#header h1 {
@@ -2552,7 +2552,7 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #f1c8c8;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
@@ -3142,7 +3142,7 @@
 
 	#sidebar ul li a,
 	#sidebar ul li a a:visited {
-		color: #a2a2a2;
+		color: #b95757;
 		text-decoration: none;
 	}
 
@@ -3151,7 +3151,7 @@
  * 	CUSTOM CSS
  */
 
- .recent-posts li {
-	 font-size: 20px;
-	 line-height: 36px;
- }
+.recent-posts li {
+	font-size: 20px;
+	line-height: 36px;
+}
