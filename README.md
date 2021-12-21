@@ -73,7 +73,7 @@ RF_Cliente_XX
 -------
 ## **4. Diseño:**
 
-![global config](pics/DCU.jpg)
+![global config](pics/DCU.JPG)
 
 ### **SCHEMA**
 
