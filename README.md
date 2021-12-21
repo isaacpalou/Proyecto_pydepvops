@@ -4,12 +4,12 @@ This is a project developed by Isaac Palou and Joan Llompart.
 
 ----
 =======
-## **Introducción:**
+## **1. Introducción:**
 En este proyecto el objectivo que el Product Owner nos exigia era un programa que recogiera los items de la base de datos MongoDB convertir los JSON a diccionarios Python, luego el programa con logica Python tiene que cojer los items de esa base de datos y convertir-los ha Markdown para que luego con el generador de sitios staticos Hugo coja los fitxeros Markdown y los convierta a html directamente para poder ser visualizados en la web que genera hugo, finalmente desde la pagina de hugo tienen que poder crear,actualizar y borrar los items, en la base de datos de Mongo Atlas.
 
 -----------
 
-## **Metodología:**
+## **2. Metodología:**
 En nuesto caso hemos usado el marco de trabajo Scrum ya que nos ha permitido obtener pequeños resultados a corto plazo, por otro lado era el que mas experiencia teniamos usandolo.
 ### EXPLICACIÓN
 La metodología Scrum es un proceso para llevar a cabo un conjunto de tareas de forma regular con el objetivo principal de trabajar de manera colaborativa, es decir, para fomentar el trabajo en equipo.
@@ -34,7 +34,7 @@ Con este método de trabajo lo que se pretende es alcanzar el mejor resultado de
 
 ---
 
-## **Análisis:**
+## **3. Análisis:**
 
 ### **Partes Interesadas y Requisitos Funcionales/No Funcionales**
 
@@ -68,41 +68,69 @@ RF_Cliente_XX
 
 ### **Tecnologías usadas**
 
-Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
-
-- Base de datos *MongoDB*  es una base de datos orientada a documentos. Esto quiere decir que en lugar de guardar los datos en registros, guarda los datos en documentos.Es de código abierto y utiliza un sistema de base de datos NoSQL.
-
-- Hugo: Hugo es un generador de sitios web estáticos escrito en Go, y es software libre
-
--------
-## **Diseño:**
-
--------
-
-### DIAGRAMA COMPONENTES
-
-
-
-![global config](pics/diagrama_componentes.png)
-
-
-
-
-
-----------
-
-
-### Arquitectura de la aplicación
-
-
-
-
 <img width="527" alt="diagrama " src="https://user-images.githubusercontent.com/91556752/145839738-f20b0663-0d00-4f35-ae2e-1a6905f1f126.png">
 
+-------
+## **4. Diseño:**
 
------------
+![global config](pics/DCU.jpg)
 
-## **Implementación:**
+### **SCHEMA**
+
+~~~
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'name',
+      'plates',
+      'drink',
+      'stock',
+      'price',
+      'discount',
+      'valoration'
+    ],
+    properties: {
+      name: {
+        bsonType: 'string',
+        description: 'must be a string with name of menu'
+      },
+      plates: {
+        bsonType: 'array',
+        description: 'must be an array with plates of the menu',
+        items: {
+          bsonType: 'string',
+          description: 'mustb be a string with plate of the menu'
+        }
+      },
+      drink: {
+        bsonType: 'string',
+        description: 'must be a string with drinks of the menu'
+      },
+      stock: {
+        bsonType: 'int',
+        description: 'must be an int of the stock'
+      },
+      price: {
+        bsonType: 'double',
+        description: ' must be a double with the price of menu'
+      },
+      discount: {
+        bsonType: 'int',
+        description: 'must be an int of the discount'
+      },
+      valoration: {
+        bsonType: 'double',
+        description: 'must be a double with the valoration of the menu'
+      }
+    }
+  }
+}
+~~~
+
+
+
+## **5. Implementación:**
 
 Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 
@@ -114,15 +142,15 @@ Las tecnologias que hemos estado utilizando para el proyecto PyDevops son:
 -----------
 
 
-## **Pruebas:**
+## **6. Pruebas:**
 
 -----------
 
-## **Comparación Temporal:**
+## **7. Comparación Temporal:**
 
+![clockify](pics/clockify.png)
 
-
-## **Dificultades:**
+## **8. Dificultades:**
 
 
 -----------
