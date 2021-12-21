@@ -64,7 +64,7 @@ RF_Cliente_XX
 
 ### **Diagrama de Casos de Uso**
 
-![UML](pics/UML.jpg)
+![uml](pics/UML.jpg)
 
 ### **Tecnologías usadas**
 
